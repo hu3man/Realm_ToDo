@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Assignment2</string>
+    <string name="settings">Settings</string>
+    <string name="add_task">Add Task</string>
+    <string name="title_activity_settings">SettingsActivity</string>
+    <string name="title_activity_add_task">AddTaskActivity</string>
+    <string name="addTaskPlaceholder">I want to...</string>
+    <string name="title_activity_test">TestActivity</string>
+    <string name="task_priority_label">Task Priority (1 - Highest, 3 - Lowest)</string>
+    <string name="High_priority_msg">Priority: 1 - High</string>
+    <string name="Medium_priority_msg">Priority: 2 - Medium</string>
+    <string name="Low_priority_msg">Priority: 3 - Low</string>
+    <string name="dueDatue">Due Date</string>
+    <string name="dueDateTxt">No Due Date Set!</string>
+    <string name="hPriority">High Priority!</string>
+    <string name="mPriority">Medium Priority</string>
+    <string name="lPriority">Low Priority</string>
+    <string name="EmptyListMsg">ALL DONE FOR NOW!!!</string>
+    <string name="remind_me_at_8am">Remind me at 8am</string>
+    <string name="share">Share</string>
+    <string name="title_activity_task_detail">TaskDetailActivity</string>
+</resources>

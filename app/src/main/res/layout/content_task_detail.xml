@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@color/backGround"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:textColor="@color/colorAccent"
+        android:id="@+id/taskEditText"
+        android:textColorHint="@color/colorPrimaryDark"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="@string/addTaskPlaceholder"
+        android:inputType="textAutoCorrect" />
+
+    <EditText
+        android:id="@+id/dateEditText"
+        android:focusable="false"
+        android:textColor="@color/colorAccent"
+        android:textColorHint="@color/colorPrimaryDark"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="20dp"
+        android:clickable="true"
+        android:onClick="onClickDate"
+        android:ems="10"
+        android:inputType="date"
+        android:hint="@string/dueDatue" />
+
+    <TextView
+        android:id="@+id/priorityTextView"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@color/colorPrimary"
+        android:layout_height="wrap_content"/>
+    <SeekBar
+        android:id="@+id/prioritySeekBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:max="2"
+        />
+
+    <CheckBox
+        android:layout_marginTop="20dp"
+        android:textColor="@color/colorAccent"
+        android:id="@+id/checkBox"
+        android:shadowColor="@color/colorPrimary"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/remind_me_at_8am" />
+    <Button
+        android:layout_marginTop="20dp"
+        android:shadowColor="@color/colorPrimaryDark"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="@color/colorAccent"
+        android:id="@+id/button"
+        android:onClick="addTask"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:text="@string/add_task" />
+</LinearLayout>
